@@ -31,21 +31,21 @@ console.log(`${error.status} ${error.name}: ${error.message}`);
 There is a subclass of **HttpError** for every standard HTTP error. The status and name are hardcoded, and they have a standard message that you can change:
 
 ```typescript
-import { BadRequestError, UnauthorizedError } from '@valbo/http-errors';
+import { NotFoundError, UnauthorizedError } from '@valbo/http-errors';
 
-const badRequest = new BadRequestError();
-console.log(`${badRequest.status} ${badRequest.name}: ${badRequest.message}`);
+const notFound = new NotFoundError();
+console.log(`${notFound.status} ${notFound.name}: ${notFound.message}`);
 ```
 
 ```JSON
-"400 BadRequestError: The request could not be fulfilled due to the incorrect syntax of the request."
+"404 NotFoundError: The resource could not be found."
 ```
 
 ```typescript
-const unauthorized = new UnauthorizedError('The token in the x-access-token header has expired.');
+const unauthorized = new UnauthorizedError('The token has expired.');
 console.log(`${unauthorized.status} ${unauthorized.name}: ${unauthorized.message}`);
 ```
 
 ```JSON
-"401 UnauthorizedError: The token in the x-access-token header has expired."
+"401 UnauthorizedError: The token has expired."
 ```
