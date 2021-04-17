@@ -1,6 +1,6 @@
 {
   "name": "@valbo/http-errors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "HTTP error classes with a status, name and message",
   "keywords": [
     "http",

@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/valverdealbo/http-errors/compare/v1.0.3...v1.0.4) (2021-04-17)
+
+
+### Bug Fixes
+
+* update dependencies and tools configurations ([7cda027](https://github.com/valverdealbo/http-errors/commit/7cda027982ff763795f3d4d84478eacc550afcfe))
+
 ## [1.0.3](https://github.com/valverdealbo/http-errors/compare/v1.0.2...v1.0.3) (2021-02-19)
 
 
