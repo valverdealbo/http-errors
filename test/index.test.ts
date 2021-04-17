@@ -41,7 +41,7 @@ import {
   UnsupportedMediaTypeError,
   UpgradeRequiredError,
   VariantAlsoNegotiatesError,
-} from '.';
+} from '../src';
 
 describe('HttpError', () => {
   test('should extend Error', () => {
