@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/valverdealbo/http-errors/compare/v1.0.4...v1.1.0) (2022-05-08)
+
+
+### Features
+
+* add retry after to 429 and 503 errors ([9a8b8c8](https://github.com/valverdealbo/http-errors/commit/9a8b8c8ec0afe85913600af8e2cedfdd49289e43))
+
 ## [1.0.4](https://github.com/valverdealbo/http-errors/compare/v1.0.3...v1.0.4) (2021-04-17)
 
 
